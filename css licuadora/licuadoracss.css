@@ -1,0 +1,38 @@
+/*con esto le sacamos los estilos que vienen por defecto a la hoja*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: black;
+}
+/*con esto le sacamos los estilos que vienen por defecto a la hoja*/
+
+/* este es el rectangulo de la licuadora */
+.licuadora {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 230px;
+  /*   background-color: red;  */
+  background-image: url(../img/licuadoraApagada.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* este es el rectangulo de la licuadora */
+/* esta nueva clase es para que me cambie la imagen de fondo */
+.licuadoraprendida {
+  background-image: url(../img/licuadoraEncencida.jpg);
+}
+
+/* este es el rectangulo del boton de la licuadora */
+.botonlicuadora {
+  margin: 155px 112px 0px;
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  /* background-color: blue; */
+}
+/* este es el rectangulo del boton de la licuadora */
